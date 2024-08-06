@@ -1,0 +1,14 @@
+.navbar {
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+.navbar a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000; /* Черный цвет */
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}

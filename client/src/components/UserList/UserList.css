@@ -1,0 +1,22 @@
+.user-list-container {
+    margin: 20px;
+}
+
+.user-list-item {
+    padding: 8px;
+    background-color: #f4f4f4;
+    margin-bottom: 4px;
+    border: 1px solid #ddd;
+}
+
+.user-list-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.user-list-button:hover {
+    background-color: #0056b3;
+}

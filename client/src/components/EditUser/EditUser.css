@@ -1,0 +1,26 @@
+.edit-user-container {
+    margin: 20px;
+}
+
+.edit-user-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-user-input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.edit-user-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.edit-user-button:hover {
+    background-color: #0056b3;
+}
