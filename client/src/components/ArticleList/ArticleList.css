@@ -1,0 +1,29 @@
+.article-list {
+      margin: 20px;
+    }
+    
+    .article-list h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    .article-list ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    .article-list li {
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    
+    .article-list h3 {
+      font-size: 20px;
+      margin: 0;
+    }
+    
+    .article-list p {
+      margin: 5px 0 0 0;
+    }
+    

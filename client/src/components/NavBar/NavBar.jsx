@@ -16,6 +16,9 @@ const NavBar = () => {
                 <li className="nav-item">
                     <Link to="/contact" className="nav-link">Contact Us</Link> {/* Ссылка на страницу "Контакты" */}
                 </li>
+                <li className="nav-item">
+                    <Link to="/articles" className="nav-link">Articles</Link>
+                </li>
             </ul>
         </nav>
     );
