@@ -3,8 +3,8 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'; // Им
 import Home from './components/Home'; // Импорт компонента Home
 import AboutUs from './components/AboutUs'; // Импорт компонента AboutUs
 import NavBar from './components/NavBar'; // Импорт компонента NavBar
-import ContactUs from './components/ContactUs'; // Импорт компонента CpntactUs
-import ArticleList from './components/ArticleList/ArticleList';
+import ContactUs from './components/ContactUs'; // Импорт компонента ContactUs
+import ArticleList from './components/ArticleList/ArticleList'; // Импорт компонента ArticleList
 
 const App = () => {
     return (
