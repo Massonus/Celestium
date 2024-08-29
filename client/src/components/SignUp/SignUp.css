@@ -1,0 +1,122 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1e1e1e;
+}
+
+.signup-form {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+
+.signup-form h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.input-group label {
+  color: white;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.input-group input,
+.small-input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 5px;
+  background-color: #555;
+  color: white;
+  box-sizing: border-box;
+}
+
+.input-group input::placeholder,
+.small-input::placeholder {
+  color: white;
+  opacity: 0.8;
+}
+
+.name-fields {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.name-fields .input-group,
+.reduced-width-input {
+  width: 48%;
+}
+
+.btn-signup {
+  background-color: #ff5252;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 75%;
+  margin-top: 10px;
+}
+
+.login-redirect {
+  color: #bbb;
+  margin-top: 10px;
+}
+
+.auth-divider {
+  color: #bbb;
+  margin: 20px 0;
+  position: relative;
+  text-align: center;
+}
+
+.auth-divider::before,
+.auth-divider::after {
+  content: "";
+  height: 1px;
+  width: 45%;
+  background-color: #bbb;
+  position: absolute;
+  top: 50%;
+}
+
+.auth-divider::before {
+  left: 0;
+}
+
+.auth-divider::after {
+  right: 0;
+}
+
+.btn-google, .btn-microsoft {
+  background-color: #fff;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.btn-google {
+  background-color: #4285f4;
+  color: white;
+}
+
+.btn-microsoft {
+  background-color: #0078d4;
+  color: white;
+}

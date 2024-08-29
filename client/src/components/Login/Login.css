@@ -1,0 +1,102 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1e1e1e;
+}
+
+.login-form {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+
+.login-form h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.input-group input::placeholder {
+  color: white;
+  opacity: 0.8;
+}
+
+.btn-login {
+  background-color: #ff5252;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 75%;
+  margin-bottom: 15px;
+}
+
+.forgot-password {
+  color: #bbb;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.auth-divider {
+  color: #bbb;
+  margin: 20px 0;
+  position: relative;
+  text-align: center;
+}
+
+.auth-divider::before,
+.auth-divider::after {
+  content: "";
+  height: 1px;
+  width: 45%;
+  background-color: #bbb;
+  position: absolute;
+  top: 50%;
+}
+
+.auth-divider::before {
+  left: 0;
+}
+
+.auth-divider::after {
+  right: 0;
+}
+
+.btn-google, .btn-microsoft {
+  background-color: #fff;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.btn-google {
+  background-color: #4285f4;
+  color: white;
+}
+
+.btn-microsoft {
+  background-color: #0078d4;
+  color: white;
+}
