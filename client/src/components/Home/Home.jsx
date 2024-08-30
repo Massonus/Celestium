@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'; // Импорт React и ху�
 import UserList from '../UserList'; // Импорт компонента UserList
 import AddUser from '../AddUser'; // Импорт компонента AddUser
 import EditUser from '../EditUser'; // Импорт компонента EditUser
-import './Home.css'; // Импорт стилей для компонента
+import '../../styles/Home.css'; // Импорт стилей для компонента
 import {getUsers} from '../../api/api'; // Импорт функции getUsers из api.js
 
 // Компонент Home

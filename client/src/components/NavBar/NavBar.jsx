@@ -1,6 +1,6 @@
 import React from 'react'; // Импорт React
 import {Link} from 'react-router-dom'; // Импорт компонента Link для создания ссылок
-import './NavBar.css'; // Импорт стилей для компонента
+import '../../styles/NavBar.css'; // Импорт стилей для компонента
 
 // Компонент NavBar
 const NavBar = () => {

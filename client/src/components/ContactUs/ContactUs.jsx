@@ -1,5 +1,5 @@
 import React from 'react'; // Импорт React
-import './ContactUs.css'; // Импорт стилей для компонента
+import '../../styles/ContactUs.css'; // Импорт стилей для компонента
 
 // Компонент ContactUs
 const ContactUs = () => {
