@@ -1,6 +1,6 @@
 import React, {useState} from 'react'; // Импорт React и хука useState
 import {updateUser} from '../../api/api'; // Импорт функции updateUser из api.js
-import './EditUser.css'; // Импорт стилей для компонента
+import '../../styles/EditUser.css'; // Импорт стилей для компонента
 
 // Компонент EditUser, принимает объект user и функцию onUpdate как пропсы
 const EditUser = ({user, onUpdate}) => {

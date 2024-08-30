@@ -1,0 +1,13 @@
+:root {
+  --background-color-dark: #1e1e1e;
+  --background-color-grey: #555;
+  --background-color-medium: #333;
+  --background-color-light: #bbb;
+  --text-color-white: #ffffff;
+  --text-color-light: #bbb;
+  --link-color: #3498db;
+
+  --button-login-background-color: #ff5252;
+  --button-auth-background-color: #ffffff;
+  --button-auth-text-color: black;
+}

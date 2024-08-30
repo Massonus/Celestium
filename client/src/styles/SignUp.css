@@ -1,13 +1,15 @@
+@import url('variables.css');
+
 .auth-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #1e1e1e;
+  background-color: var(--background-color-dark);
 }
 
 .signup-form {
-  background-color: #333;
+  background-color: var(--background-color-medium);
   padding: 20px;
   border-radius: 8px;
   width: 300px;
@@ -15,19 +17,13 @@
 }
 
 .signup-form h2 {
-  color: white;
+  color: var(--text-color-white);
   margin-bottom: 20px;
 }
 
 .input-group {
   margin-bottom: 10px;
   text-align: left;
-}
-
-.input-group label {
-  color: white;
-  margin-bottom: 5px;
-  display: block;
 }
 
 .input-group input,
@@ -37,14 +33,14 @@
   border: none;
   border-radius: 4px;
   margin-top: 5px;
-  background-color: #555;
-  color: white;
+  background-color: var(--background-color-grey);
+  color: var(--text-color-white);
   box-sizing: border-box;
 }
 
 .input-group input::placeholder,
 .small-input::placeholder {
-  color: white;
+  color: var(--text-color-white);
   opacity: 0.8;
 }
 
@@ -60,8 +56,8 @@
 }
 
 .btn-signup {
-  background-color: #ff5252;
-  color: white;
+  background-color: var(--button-login-background-color);
+  color: var(--text-color-white);
   padding: 14px;
   border: none;
   border-radius: 20px;
@@ -71,12 +67,16 @@
 }
 
 .login-redirect {
-  color: #bbb;
+  color: var(--text-color-light);
   margin-top: 10px;
 }
 
+.login-redirect a {
+  color: var(--link-color);
+}
+
 .auth-divider {
-  color: #bbb;
+  color: var(--text-color-light);
   margin: 20px 0;
   position: relative;
   text-align: center;
@@ -87,7 +87,7 @@
   content: "";
   height: 1px;
   width: 45%;
-  background-color: #bbb;
+  background-color: var(--background-color-light);
   position: absolute;
   top: 50%;
 }
@@ -101,22 +101,31 @@
 }
 
 .btn-google, .btn-microsoft {
-  background-color: #fff;
-  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   padding: 10px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   width: 100%;
   margin-bottom: 10px;
+  color: var(--button-auth-background-color);
 }
 
 .btn-google {
-  background-color: #4285f4;
-  color: white;
+  background-color: var(--button-auth-background-color) !important;
+  color: var(--button-auth-text-color) !important;
 }
 
 .btn-microsoft {
-  background-color: #0078d4;
-  color: white;
+  background-color: var(--button-auth-background-color) !important;
+  color: var(--button-auth-text-color) !important;
+}
+
+.icon-google,
+.icon-microsoft {
+  width: 24px;
+  height: 24px;
 }

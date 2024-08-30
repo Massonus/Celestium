@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'; // Импорт React и хуков useEffect и useState
 import {getUsers, deleteUser} from '../../api/api'; // Импорт функций getUsers и deleteUser из api.js
-import './UserList.css'; // Импорт стилей для компонента
+import '../../styles/UserList.css'; // Импорт стилей для компонента
 
 // Компонент UserList, принимает функцию onEdit как пропс
 const UserList = ({onEdit}) => {

@@ -1,6 +1,6 @@
 import React, {useState} from 'react'; // Импорт React и хука useState
 import {addUser} from '../../api/api'; // Импорт функции addUser из api.js
-import './AddUser.css'; // Импорт стилей для компонента
+import '../../styles/AddUser.css'; // Импорт стилей для компонента
 
 // Компонент AddUser, принимает функцию onUserAdded как пропс
 const AddUser = ({onUserAdded}) => {

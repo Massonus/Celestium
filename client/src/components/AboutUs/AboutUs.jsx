@@ -1,5 +1,5 @@
 import React from 'react'; // Импорт React
-import './AboutUs.css'; // Импорт стилей для компонента
+import '../../styles/AboutUs.css'; // Импорт стилей для компонента
 
 // Компонент AboutUs
 const AboutUs = () => {
